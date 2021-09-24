@@ -1,0 +1,410 @@
+@import url("/assets/fonts/stylesheet.css");
+.logo-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.logo {
+  width: 200px;
+}
+
+.section-1 {
+  background-image: url("../../images/bg1.png");
+  height: 100vh;
+  background-color: #f7f9fc;
+  background-size: cover;
+}
+/*Mobile Responsive */
+@media (max-width: 576px) {
+  .section-1 {
+    height: auto;
+    background-color: #f7f9fc;
+  }
+  .section-1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-container {
+    background-image: url("../../images/bg.png");
+    background-size: cover;
+    display: flex;
+    background-position-x: -6.45rem;
+    justify-content: flex-end;
+  }
+  .carousel-container .carousel {
+    width: 90%;
+  }
+  .heading-cont {
+    width: 55% !important;
+  }
+}
+
+.heading-cont {
+  border-bottom: 4px solid #ac3b08;
+  margin: 1rem 0;
+  width: 75%;
+}
+
+.heading-font {
+  font-family: "century751_no2_btbold";
+  font-weight: 600;
+}
+
+.text-font {
+  font-family: "gotham_bookregular";
+  font-size: 1rem !important;
+}
+
+.text-font-bold {
+  font-family: "gothambold";
+  font-weight: 600;
+}
+
+.divider-line {
+  width: 60%;
+  margin: auto;
+}
+
+.section-2 .heading-font {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #286f71;
+}
+
+.ls-2 {
+  letter-spacing: 10px;
+}
+
+.section-3 .ruler {
+  padding-left: 100px;
+  border-bottom: 2px solid #286f71;
+  width: fit-content;
+}
+.section-3 .heading-font {
+  margin-top: 40px;
+  font-size: 40px;
+  color: #191919;
+  padding-bottom: 20px;
+}
+.carousel {
+  clip-path: polygon(27% 0%, 100% 0%, 100% 100%, 7% 100%);
+}
+.section-2 {
+  height: auto;
+  background-image: url("../../images/s2-bg.png");
+  background-size: cover;
+  background-position-x: 80%;
+  background-repeat: no-repeat;
+}
+.mybtn {
+  background: none;
+  display: flex;
+  align-items: center;
+  border: 2px solid #00b392;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  justify-content: space-evenly;
+  width: 12rem;
+}
+
+.mybtn-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid grey;
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+
+.vl-cut {
+  top: -10%;
+}
+
+.sec2img {
+  box-shadow: 26px 18px 93px -12px rgba(0, 0, 0, 0.43);
+  width: 80%;
+}
+
+/* .section-4 .section-6 {
+  height: 100vh;
+  margin-bottom: 50px;
+} */
+
+.sec3-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width : 576px) {
+  .sec3-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .vertical-line{
+    height:100px !important;
+  }
+}
+
+.sec3imgs {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}
+
+.sec3imgs-text {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "gothambold";
+}
+.brown-font {
+  color: #ac3b08;
+  font-family: "century751_no2_btregular";
+  letter-spacing: 1.4;
+  line-height: 1.4;
+}
+.blue-font {
+  color: #478e99;
+}
+#divid-1 {
+  left: 45%;
+  top: -75%;
+}
+
+#divid-2 {
+  left: 45%;
+  bottom: 0%;
+}
+
+.sec4img {
+  width: 80%;
+}
+
+.sec5img {
+  width: 20rem;
+}
+/* Deepak Style*/
+
+.logo-row {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.logo-row > .logo-brand {
+  width: 400px;
+  padding: 15px;
+}
+
+@media (max-width : 576px) {
+  
+}
+
+.logo-row > p {
+  padding-top: 1.2rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin-top: 50px;
+}
+.contact-form {
+  padding-right: 25px;
+}
+.check-box {
+  margin-top: 10px;
+  float: right;
+}
+.mapimage {
+  max-width: 98%;
+}
+.submit-btn {
+  background: none;
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  border: 2px solid #286f71;
+  border-radius: 2rem;
+  justify-content: space-evenly;
+  width: 5rem;
+  padding: 5px 60px;
+  margin-top: 40px;
+}
+
+.follow-section {
+  float: right;
+  width: 40%;
+}
+@media (max-width : 576px) {
+  .follow-div{
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+.follow-section p {
+  text-align: center;
+}
+
+.icon {
+  width: 40px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+}
+/* .icon:nth-child(2) {
+  border-left: solid black 2px;
+  border-right: solid black 2px; */
+
+.creatives {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+.landscape img {
+  width: 100%;
+}
+
+.sec3-divider {
+  width: 33rem;
+  border: 1px solid #01b392;
+  color: #01b392;
+}
+.sec3-divider-rel {
+  width: 6rem;
+  border: 1px solid #01b392;
+  color: #01b392;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+.sec3imgs {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+.sec3imgs-text {
+  text-align: center;
+}
+
+#divid-1 {
+  left: 45%;
+  top: -75%;
+}
+
+#divid-2 {
+  left: 45%;
+  bottom: 0%;
+}
+.sec5img {
+  width: 80%;
+}
+
+.section-8 .team-box {
+  background-color: #286f71;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+.team-box img {
+  width: 90%;
+  margin: 20px;
+  align-self: center;
+}
+.team-box .member-name {
+  color: #f7f9fc;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.team-box .designation {
+  color: #f7f9fc;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 0.2;
+}
+
+.team-box .square {
+  width: 40px;
+  top: 0;
+  height: 40px;
+  background-color: black;
+  position: relative;
+  transform: rotate(45deg);
+}
+.vertical-line {
+  border-left: 4px solid #286f71;
+  height: 150px;
+  width: 4px;
+  position: relative;
+  left: 50%;
+}
+footer .heading-font {
+  color: #286f71;
+  padding-top: 20px;
+  font-size: 35px;
+}
+footer .text-font-bold,
+.text-font {
+  font-size: 1.1rem;
+  letter-spacing: 0.07rem;
+}
+footer input {
+  border: 1px solid #999999;
+}
+footer input::placeholder {
+  font-family: "gotham_bookregular";
+}
+
+footer textarea {
+  border: 1px solid #999999;
+}
+footer textarea::placeholder {
+  font-family: "gotham_bookregular";
+}
+footer label {
+  font-family: "gotham_bookregular";
+}
+
+footer button {
+  font-size: 12px;
+  font-family: "gotham_bookregular";
+}
+.creatives .text-font-bold {
+  font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .team-box .square {
+    width: 10px;
+    bottom: 275px;
+    height: 10px;
+    background-color: #286f71;
+    position: relative;
+    transform: rotate(45deg);
+    margin-left: 4px;
+  }
+
+  .team-box .text-font {
+    font-size: 10x;
+  }
+}
+
+.color{
+  color: #286f71;
+}
+
+.sm-line {
+  width: 20px;
+  border-bottom: 3px solid #286f71;
+}
+
+.lg-line {
+  border-left: 3px solid #286f71;
+}
