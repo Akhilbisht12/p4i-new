@@ -343,7 +343,7 @@
   transform: rotate(45deg);
 }
 .vertical-line-1 {
-  border-left: 4px solid #286f71;
+  border-left: 4px solid #0e8694;
   height: 150px;
   width: 4px;
   position: relative;
@@ -351,11 +351,15 @@
   top: -80px;
 }
 .vertical-line {
-  border-left: 4px solid #286f71;
+  border-left: 4px solid #0e8694;
   height: 150px;
   width: 4px;
   position: relative;
   left: 50%;
+}
+
+.text-grey {
+  color: grey;
 }
 
 footer .heading-font {
