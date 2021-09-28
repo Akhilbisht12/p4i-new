@@ -10,6 +10,11 @@
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/bootstrap/css/style.css" />
   </head>
@@ -224,7 +229,11 @@
       </div>
     </div>
     <!--Section 2-->
-    <div class="section-2 py-5">
+    <div
+      class="section-2 py-5"
+      data-wow-duration="10s"
+      data-wow-delay="10s"
+    >
       <div class="m-md-5 p-md-5">
         <div class="row">
           <div
@@ -281,6 +290,7 @@
           >
             <img
               class="sec2img"
+              data-aos="fade-left"
               src="./assets/images/sec3img.png"
               alt=""
               srcset=""
@@ -289,7 +299,9 @@
         </div>
       </div>
     </div>
-    <div class="vertical-line-1"></div>
+    <div
+      class="vertical-line-1" data-aos="fade-down"
+    ></div>
     <div class="section-3 d-flex flex-column justify-content-center">
       <div class="ruler ps-md-5">
         <h3 class="heading-font ps-md-5 text-center text-md-start">
@@ -306,6 +318,7 @@
               class="sec3imgs"
               alt=""
               srcset=""
+              data-aos = 'fade-up'
             />
             <div class="h5 sec3imgs-text">Children</div>
           </div>
@@ -315,6 +328,7 @@
               class="sec3imgs"
               alt=""
               srcset=""
+              data-aos = 'fade-up'
             />
             <div class="h5 sec3imgs-text">Gender</div>
           </div>
@@ -324,6 +338,7 @@
               class="sec3imgs"
               alt=""
               srcset=""
+              data-aos = 'fade-up'
             />
             <div class="h5 sec3imgs-text">Livelihood</div>
           </div>
@@ -333,6 +348,7 @@
               class="sec3imgs"
               alt=""
               srcset=""
+              data-aos = 'fade-up'
             />
             <div class="h5 sec3imgs-text">Education</div>
           </div>
@@ -342,6 +358,7 @@
               class="sec3imgs"
               alt=""
               srcset=""
+              data-aos = 'fade-up'
             />
             <div class="h5 sec3imgs-text">Mental Health</div>
           </div>
@@ -354,7 +371,7 @@
         </button>
       </div>
     </div>
-    <div class="vertical-line py-5 my-5"></div>
+    <div class="vertical-line py-5 my-5" data-aos="fade-down"></div>
     <!-- how we work -->
     <div class="section-4 p-md-5">
       <div class="p-2 ps-md-5l pe-md-5 pb-md-5 h-100">
@@ -362,6 +379,7 @@
         <div class="row h-75 align-items-center">
           <div class="col-12 col-md-6 d-flex justify-content-center">
             <img
+              data-aos="fade-right"
               class="sec4img"
               src="./assets/images/sec4img.png"
               alt=""
@@ -398,7 +416,7 @@
         <!-- <hr class="sec3-divider-rel" id="divid-2" /> -->
       </div>
     </div>
-    <div class="vertical-line mt-1"></div>
+    <div class="vertical-line mt-1" data-aos="fade-down"></div>
     <div class="section-5 p-md-5">
       <div class="p-3 p-md-5">
         <div class="display-4 text-center my-5 heading-font">What we do</div>
@@ -551,6 +569,7 @@
           <div class="col-12 col-md-5 d-flex justify-content-center">
             <img
               class="sec5img ps-5"
+              data-aos="fade-left"
               src="./assets/images/sec5img.png"
               alt=""
               srcset=""
@@ -559,7 +578,7 @@
         </div>
       </div>
     </div>
-    <div class="vertical-line py-5 my-5"></div>
+    <div class="vertical-line py-5 my-5" data-aos="fade-down"></div>
     <div class="section-6 p-md-5">
       <div class="p-3 p-md-5 h-100">
         <div class="text-center my-1">
@@ -707,6 +726,7 @@
           <div class="col-12 col-md-5">
             <img
               class="w-100 p-5"
+              data-aos="fade-left"
               src="./assets/images/hand.png"
               alt=""
               srcset=""
@@ -719,13 +739,14 @@
         </div>
       </div>
     </div>
-    <div class="vertical-line" style="margin-top: -20px"></div>
+    <div class="vertical-line" data-aos="fade-down" style="margin-top: -20px"></div>
     <div class="section-7 p-md-5">
       <div class="p-3 p-md-5 h-100">
         <div class="row h-75 align-items-center">
           <div class="col-12 col-md-6">
             <img
               class="sec5img p-5"
+              data-aos="fade-right"
               src="./assets/images/sec7img.png"
               alt=""
               srcset=""
@@ -768,7 +789,7 @@
         </div>
       </div>
     </div>
-    <div class="vertical-line mb-5"></div>
+    <div class="vertical-line mb-5" data-aos="fade-down"></div>
     <div class="section-8 pt-4 my-5">
       <h2 class="heading-font text-center my-5 display-6">Our Team</h2>
       <div class="container w-md-75">
@@ -1054,7 +1075,13 @@
         <div class="creatives">
           <p class="text-font-bold">
             Copyrights Reserved 2015 PARTNERSHIPS FOR IMPACT | Design with love
-            by <a target="_blank" class="text-warning text-decoration-none" href='https://www.littlebiggestdesign.com/'>Little Biggest Design Company LLP</a>
+            by
+            <a
+              target="_blank"
+              class="text-warning text-decoration-none"
+              href="https://www.littlebiggestdesign.com/"
+              >Little Biggest Design Company LLP</a
+            >
           </p>
         </div>
       </div>
@@ -1063,5 +1090,11 @@
       </div>
     </footer>
     <!--Footer Ends here-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
