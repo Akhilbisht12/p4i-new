@@ -31,7 +31,7 @@
     /* background-image: url("../../images/bg.png"); */
     background-size: cover;
     display: flex;
-    background-position-x: -6.45rem;
+    background-position-x: -6.45rem !important;
     justify-content: flex-end;
   }
   .carousel-container .carousel {
@@ -40,6 +40,10 @@
   .heading-cont {
     width: 55% !important;
   }
+}
+
+.ls-lg {
+  letter-spacing: 1px;
 }
 
 .heading-cont {
@@ -59,13 +63,20 @@
   font-size: 1rem !important;
 }
 
+.font {
+  font-family: 'gothambold';
+}
+.font-form {
+  font-family: 'century751_no2_btbold' !important;
+}
+
 .text-font-bold {
   font-family: "gothambold";
   font-weight: 600;
 }
 
 .divider-line {
-  width: 60%;
+  width: 75%;
   margin: auto;
 }
 
@@ -111,7 +122,7 @@
   padding: 0.5rem 2rem;
   border-radius: 2rem;
   justify-content: space-evenly;
-  width: 12rem;
+  /* width: 12rem; */
 }
 
 .mybtn-icon {
@@ -120,6 +131,7 @@
   /* border: 1px solid grey; */
   /* padding: 0.2rem; */
   border-radius: 10px;
+  margin: 0 1rem 0 0;
 }
 
 .sec2img {
@@ -166,13 +178,14 @@
   font-family: "gothambold";
 }
 .brown-font {
-  color: #ac3b08;
+  color: #b35b27;
   font-family: "century751_no2_btregular";
   letter-spacing: 1.4;
   line-height: 1.4;
+
 }
 .blue-font {
-  color: #478e99;
+  color: #0e8694;
 }
 #divid-1 {
   left: 45%;
@@ -189,7 +202,7 @@
 }
 
 .sec5img {
-  width: 20rem;
+  width: 100%;
 }
 /* Deepak Style*/
 
@@ -242,15 +255,11 @@
 }
 .submit-btn {
   background: none;
-  display: flex;
   font-size: 0.8rem;
-  align-items: center;
   border: 2px solid #286f71;
   border-radius: 2rem;
-  justify-content: space-evenly;
-  width: 5rem;
+  /* width: 5rem; */
   padding: 0.5rem 5rem;
-  margin-top: 40px;
 }
 
 .creatives {
@@ -294,12 +303,9 @@
   left: 45%;
   bottom: 0%;
 }
-.sec5img {
-  width: 80%;
-}
 
 .section-8 .team-box {
-  background-color: #286f71;
+  background-color: #0e8694;
   padding: auto;
   display: flex;
   flex-direction: column;
@@ -312,19 +318,20 @@
 }
 .team-box .member-name {
   color: #f7f9fc;
-  font-size: 20px;
+  font-size: 1.5rem !important;
   font-weight: bold;
   padding-left: 20px;
   text-transform: uppercase;
   text-align: left;
+  line-height: 0.8;
 }
 .team-box .designation {
   color: #f7f9fc;
-  font-size: 16px;
+  font-size: 1.2rem !important;
   font-weight: 300;
   padding-left: 20px;
   text-align: left;
-  line-height: 18px;
+  line-height: .8;
 }
 
 .team-box .square {
@@ -352,15 +359,11 @@
 }
 
 footer .heading-font {
-  color: #286f71;
+  color: #0e8694;
   padding-top: 20px;
   font-size: 35px;
 }
-footer .text-font-bold,
-.text-font {
-  font-size: 1.1rem;
-  letter-spacing: 0.07rem;
-}
+
 footer input {
   border: 1px solid #999999;
 }
@@ -375,7 +378,7 @@ footer textarea::placeholder {
   font-family: "gotham_bookregular";
 }
 footer label {
-  font-family: "gotham_bookregular";
+  font-family: "century751_no2_btbold";
 }
 
 footer button {
@@ -387,7 +390,7 @@ footer button {
 }
 
 .bold-800 {
-  font-weight: 800 !important;
+  font-weight: 600 !important;
 }
 
 @media (max-width: 576px) {
