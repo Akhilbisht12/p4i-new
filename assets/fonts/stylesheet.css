@@ -10,8 +10,7 @@
 
 @font-face {
   font-family: "gothambold";
-  src: url("gotham-bold-webfont.woff2") format("woff2"),
-    url("gotham-bold-webfont.woff") format("woff");
+  src: url("gothambold1.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
