@@ -407,6 +407,9 @@ footer button {
     transform: rotate(45deg);
     margin-left: 4px;
   }
+  .mobile {
+    display: none;
+  }
   .section-2 {
     margin-top: 9rem;
   }
@@ -439,11 +442,10 @@ footer button {
   }
 
   .section-1 .heading-font {
-    font-size: 30px;
+    font-size: 35px;
   }
-  .section-1 .text-font-bold {
-    font-size: 14px;
-    padding: 0;
+  .text-font-bold {
+    font-size: 12px;
   }
   .sec3imgs {
     width: 100px;
@@ -452,14 +454,13 @@ footer button {
     font-size: 14px;
   }
   .text-font {
-    font-size: 14px;
+    font-size: 12px !important;
   }
-  .heading-font,
-  .brown-font {
+  .heading-font {
     font-size: 24px !important;
   }
-  .accordian-body {
-    font-size: 14px !important;
+  .brown-font {
+    font-size: 18px !important;
   }
   .team-box .member-name {
     font-size: 1rem !important;
@@ -473,5 +474,20 @@ footer button {
   }
   .vertical-line-1 {
     top: -30px;
+  }
+  button {
+    font-size: 14px !important;
+  }
+  .heading-cont {
+    width: 55%;
+  }
+  .section-5 .sec5img {
+    width: 80%;
+  }
+  .tablet {
+    display: none;
+  }
+  .footer .heading-font {
+    padding-top: 0;
   }
 }
