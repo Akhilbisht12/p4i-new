@@ -103,8 +103,9 @@
   padding-bottom: 20px;
 }
 .carousel {
-  clip-path: polygon(27% 0%, 100% 0%, 100% 100%, 11% 100%);
+  -webkit-clip-path: polygon(27% 0%, 100% 0%, 100% 100%, 11% 100%);
 }
+
 .section-2 {
   height: auto;
   background-image: url("../../images/s2-bg.png");
