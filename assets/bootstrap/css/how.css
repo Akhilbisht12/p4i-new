@@ -14,21 +14,21 @@
 
 /* section -2 business details explained css */
 .sec-business-details {
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 .skew-grey {
-    transform: skewY(0deg);
-    height: 100%;
-    width: 100%;
-    background-color: lightgray;
+  transform: skewY(0deg);
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
 }
 
-.skew-blue{
-    background-color: #286f71;
-    transform: skewY(3deg);
+.skew-blue {
+  background-color: #286f71;
+  transform: skewY(3deg);
 }
 
 .business-content {
-    transform: skewY(-3deg);
+  transform: skewY(-3deg);
 }
