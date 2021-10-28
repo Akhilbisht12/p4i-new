@@ -20,6 +20,7 @@
 
 #navbarSupportedContent ul li a {
     font-family: "gothambold";
+    padding: 2rem 1.5rem;
 }
 #navbarSupportedContent ul li a:hover {
     background-color: lightgray;
