@@ -1,0 +1,62 @@
+@import url("../../fonts/stylesheet.css");
+
+.logo-div{
+    width: 20%;
+}
+
+.ham {
+    width: 2rem;
+}
+
+#navbarSupportedContent {
+    flex-grow: unset;
+    width: 70%;
+}
+
+#navbarSupportedContent ul {
+    justify-content: space-between;
+    width: 100%;
+}
+
+#navbarSupportedContent ul li a {
+    font-family: "gothambold";
+}
+#navbarSupportedContent ul li a:hover {
+    background-color: lightgray;
+}
+#navbarSupportedContent .dropdown-item {
+    font-family: "gotham_bookregular";
+    padding: 0.5rem 1rem;
+
+}
+
+.topbar-social {
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+@media (max-width : 576px) {
+    .logo-div{
+        width: 40%;
+    }
+    #navbarSupportedContent {
+        width: 100%;
+    }
+    #navbarSupportedContent ul li a {
+        padding: 0.5rem;
+    }
+    #navbarSupportedContent ul li a:hover {
+        background-color : transparent;
+    }
+    
+}
+
+@media (max-width : 900px) {
+    .topbar {
+        display: none!important;
+    }
+}
