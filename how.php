@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>How We Work</title>
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/bootstrap/css/how.css" />
-  </head>
-  <body>
-    <!-- header will come here -->
-    <div class="header century-bold">header will come here</div>
+<?php include 'templates/header.php'; ?>
+
     <!-- The Business Model Section -->
     <div
       class="
@@ -60,5 +49,6 @@
         </div>
       </div>
     </div>
-  </body>
-</html>
+ <!--Footer-->
+ <?php include 'templates/footer.php'; ?>
+
