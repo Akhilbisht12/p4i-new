@@ -245,6 +245,7 @@
 
 .contact-form {
   padding-right: 25px;
+  z-index: 1;
 }
 .check-box {
   margin-top: 10px;
@@ -267,8 +268,19 @@
   text-align: center;
   font-weight: bold;
 }
+.landscape {
+  opacity: 0.3;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  overflow-x: hidden;
+}
+.top-content {
+  z-index: 1;
+}
 .landscape img {
   width: 100%;
+  height: 70%;
 }
 
 .sec3-divider {
@@ -367,19 +379,26 @@ footer .heading-font {
   padding-top: 20px;
   font-size: 35px;
 }
+footer {
+  position: relative;
+}
 
 footer input {
-  border: 1px solid #999999;
+  border: 1px solid #333333;
+  opacity: 50%;
 }
 footer input::placeholder {
   font-family: "gotham_bookregular";
+  color: #262626;
 }
 
 footer textarea {
-  border: 1px solid #999999;
+  border: 1px solid #333333;
+  opacity: 50%;
 }
 footer textarea::placeholder {
   font-family: "gotham_bookregular";
+  color: #262626;
 }
 footer label {
   font-family: "century751_no2_btbold";
@@ -438,7 +457,7 @@ footer button {
 
 @media (max-width: 768px) {
   .section-1 {
-    height: 35vh;
+    height: 65vh;
   }
 
   .section-1 .heading-font {
@@ -484,10 +503,46 @@ footer button {
   .section-5 .sec5img {
     width: 80%;
   }
-  .tablet {
+  input .tablet {
     display: none;
   }
   .footer .heading-font {
     padding-top: 0;
   }
+  ::-webkit-input-placeholder {
+    font-size: 13px !important;
+  }
+  footer label {
+    font-size: 13px !important;
+  }
+}
+/* About Us CSS  */
+
+.about-us {
+  background-color: #286f71;
+  padding: 50px 0;
+  margin-bottom: 70px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 95%);
+}
+
+.about-us h1 {
+  border-bottom: 2px white solid;
+  padding-bottom: 4rem;
+}
+
+.about-us img {
+  border-radius: 30px;
+}
+.divider {
+  display: flex;
+  padding: 100px 0;
+  justify-content: center;
+}
+.what-care {
+  margin: 70px 0;
+}
+
+.what-care .heading-font {
+  color: #286f71;
+  padding-left: 7rem;
 }
