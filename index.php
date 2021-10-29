@@ -302,8 +302,12 @@
                 src="./assets/images/sec5img.png"
                 alt=""
                 srcset=""
-              />
-              </div>
+                />
+                <button class="mybtn text-font-bold my-4">
+              <img src="./assets/images/plus.svg" alt="" class="mybtn-icon " />
+              Read More
+            </button>
+                </div>
             </div>
             <div class="h3 my-4 tablet d-none d-lg-block">
               <h3 class="brown-font fs-2 px-2 px-md-1">
@@ -329,6 +333,7 @@
               <hr class="accordian-hr">
               <p class='gotham-bold blue-font my-2'>Support you in determining the quantum and tenure of funding</p>
             </div>
+        
             <!-- <div
               class="accordion px-2 px-md-0 my-5"
               id="accordionPanelsStayOpenExample"
@@ -651,7 +656,7 @@
       data-aos="fade-down"
       style="margin-top: -20px"
     ></div>
-    <div class="section-7 p-md-5">
+    <!-- <div class="section-7 p-md-5">
       <div class="p-3 p-lg-5 h-100">
         <div class="row h-75 align-items-center">
           <div class="col-12 col-md-6">
@@ -699,8 +704,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="vertical-line mb-5" data-aos="fade-down"></div>
+    </div> -->
+    <!-- <div class="vertical-line mb-5" data-aos="fade-down"></div> -->
  <!-- team profile row 1 -->
  <div class="section-8 pt-2 my-2">
       <div class="container w-md-75">

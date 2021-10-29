@@ -4,8 +4,8 @@ a{
   color: #286f71;
 }
 /* header */
-.header-shadow{
-  box-shadow: 2px 10px 35px -12px rgba(0,0,0,0.5);
+.header-shadow {
+  box-shadow: 2px 10px 35px -12px rgba(0, 0, 0, 0.5);
 }
 
 .footer-form input {
@@ -667,4 +667,10 @@ footer button {
 }
 .about-2 {
   padding: 3rem;
+}
+.rupee-icon {
+  margin-top: 50px;
+}
+.what-sec3 {
+  margin-top: 70px;
 }
