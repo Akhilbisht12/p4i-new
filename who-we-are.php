@@ -17,19 +17,12 @@
             others.
           </p>
         </div>
-        <div class="col-lg-6 col-12 p-lg-5 p-2">
-          <img src="./assets/images/imgsrc.png" class="w-100" alt="about" />
+        <div class="col-lg-6 col-12 p-lg-5 p-2 about-img">
+          <img src="./assets/images/who-1.jpg" class="w-100 " alt="about" />
         </div>
       </div>
-      <div class="row p-lg-5 p-2">
-        <div class="col-lg-5 col-12 p-lg-5 p-2">
-          <img
-            src="./assets/images/imgsrc.png"
-            class="w-100 h-100"
-            alt="about"
-          />
-        </div>
-        <div class="col-lg-7 col-12 pt-lg-5 ps-lg-2 p-2 pe-lg-5 " >
+      <div class="row px-lg-5 mt-0 px-2 pb-4 pb-5 d-flex flex-md-row-reverse flex-row" >
+              <div class="col-lg-7 col-12 pt-lg-5 ps-lg-2 p-2 pe-lg-5 " >
           <p class="text-white text-font pt-4">
             While we are slowly making headway in tackling the virus, the battle
             to address the damage is ongoing and could take several years, if
@@ -45,6 +38,13 @@
               They have the vision to bring about positive change, but at times,
               lack the resources to do so.</p>
           </p>
+        </div>  
+      <div class="col-lg-5 col-12 p-lg-5 p-4 p-md-2 ">
+          <img
+            src="./assets/images/who-2.jpg"
+            class="w-100 h-100 "
+            alt="about"
+          />
         </div>
       </div>
     </section>
