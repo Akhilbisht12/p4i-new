@@ -29,7 +29,7 @@
         <nav class="navbar my-0 navbar-expand-lg navbar-light">
             <div class="px-3 px-md-5 container-fluid">
                 <div class="navbar-brand logo-div">
-                    <img src="./assets/images/logo.png" class="w-100"/>
+                   <a href="./index.php"><img src="./assets/images/logo.png" class="w-100"/></a> 
                 </div>
                 <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <img class="ham" src="./assets/images/ham.png">
@@ -37,44 +37,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <!-- who -->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <li class="nav-item ">
+                        <a class="nav-link " href="./who-we-are.php">
                           Who
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                        </ul>
                       </li>
                       <!-- what -->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <li class="nav-item ">
+                        <a class="nav-link" href="./what-we-care.php">
                           What
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                        </ul>
                       </li>
                       <!-- how -->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <li class="nav-item">
+                        <a class="nav-link" href="./how.php">
                           How
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                        </ul>
                       </li>
                       <!-- campaigns -->
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link " href="./team.php" >
                           Campaigns
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                        </ul>
                       </li>
                       <!-- media -->
                       <li class="nav-item">

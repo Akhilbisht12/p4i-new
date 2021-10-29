@@ -22,7 +22,12 @@
               Feel free to ask questions about our proecess.<br/> We'll get
               back to you within the week</span>
           </p>
-
+          <?php if (isset($_SESSION['success_message']) && !empty($_SESSION['success_message'])) { ?>
+                        <div class="success-message" style="margin-bottom: 20px;font-size: 20px;color: green;"><?php echo $_SESSION['success_message']; ?></div>
+                        <?php
+                        unset($_SESSION['success_message']);
+                    }
+                    ?>
           <div class="contact-form">
             <form action="mail.php" method="post">
               <input
