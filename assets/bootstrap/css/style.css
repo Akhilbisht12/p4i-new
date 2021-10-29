@@ -21,24 +21,23 @@
   border-style: solid;
 }
 
-@media (max-width : 834px) {
-  .resp-height{
+@media (max-width: 834px) {
+  .resp-height {
     height: 35vh;
   }
 }
 
-@media (min-width : 900px) {
+@media (min-width: 900px) {
   .carousel {
-  -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
-.carousel-main {
-  height: 85vh;
-  background-image: url('../../images/bg-hero.png');
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  .carousel-main {
+    height: 85vh;
+    background-image: url("../../images/bg-hero.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* carousel end */
@@ -59,8 +58,8 @@
   background-size: cover;
   /* background-position-x: 50%; */
 }
-.accordian-hr{
-  width: 85% ;
+.accordian-hr {
+  width: 85%;
 }
 /*Mobile Responsive */
 @media (max-width: 576px) {
@@ -74,7 +73,7 @@
     align-items: center;
   }
 
-  .accordian-hr{
+  .accordian-hr {
     width: 100% !important;
   }
 
@@ -573,6 +572,7 @@ footer button {
   background-color: #286f71;
   padding: 50px 0;
   margin-bottom: 70px;
+  box-sizing: border-box;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 95%);
 }
 
@@ -583,7 +583,9 @@ footer button {
 
 .about-us img {
   border-radius: 30px;
+  box-shadow: 26px 18px 93px -12px rgba(0, 0, 0, 0.43);
 }
+
 .divider {
   display: flex;
   padding: 100px 0;
@@ -595,10 +597,15 @@ footer button {
 
 .what-care .heading-font {
   color: #286f71;
-  padding-left: 7rem;
 }
-/* How Css */
-
+.what-sec2 .heading-font {
+  color: #286f71;
+  font-size: 40px;
+}
+.accordion-button:not(.collapsed) {
+  color: #286f71;
+  /* How Css */
+}
 .gotham-regular {
   font-family: "gotham_bookregular";
 }
@@ -634,6 +641,9 @@ footer button {
 
 /* Thanks */
 
-.thanks{
+.thanks {
   height: 100vh;
+}
+.about-2 {
+  padding: 3rem;
 }
