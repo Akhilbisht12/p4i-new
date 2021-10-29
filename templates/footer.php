@@ -1,5 +1,6 @@
 <!--Footer-->
 <footer>
+  <script src="./footer.js"></script>
   <div class="container py-5">
     <div class="row footer-row g-3">
       <div class="col-12 d-flex justify-content-center">
@@ -22,14 +23,9 @@
               Feel free to ask questions about our proecess.<br/> We'll get
               back to you within the week</span>
           </p>
-          <?php if (isset($_SESSION['success_message']) && !empty($_SESSION['success_message'])) { ?>
-                        <div class="success-message" style="margin-bottom: 20px;font-size: 20px;color: green;"><?php echo $_SESSION['success_message']; ?></div>
-                        <?php
-                        unset($_SESSION['success_message']);
-                    }
-                    ?>
+          <div id="message"><?php if(isset($success)){ echo $message; } ?></div>
           <div class="contact-form">
-            <form action="mail.php" method="post">
+            <form id='mail' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
               <input
                 type="text"
                 name="fullname"
@@ -104,7 +100,7 @@
                 </div>
               </div>
               <div class="w-100 d-flex align-items-center">
-              <button class="submit-btn my-4 fw-bold" >Submit</button>
+              <button type='submit' class="submit-btn my-4 fw-bold" >Submit</button>
             </div>
             </form>
           </div>

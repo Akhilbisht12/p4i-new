@@ -581,3 +581,9 @@ footer button {
 .business-content {
   transform: skewY(-3deg);
 }
+
+/* Thanks */
+
+.thanks{
+  height: 100vh;
+}
