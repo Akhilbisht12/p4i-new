@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="col-12 col-md-6">
-        <div class="logo-row tablet">
+        <div class="logo-row tablet d-none d-md-block">
           <img src="./assets/images/logo.png" class="logo" alt="" />
         </div>
         <div class="container">
