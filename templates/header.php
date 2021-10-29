@@ -38,25 +38,25 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <!-- who -->
                       <li class="nav-item ">
-                        <a class="nav-link " href="./who-we-are.php">
+                        <a class="nav-link " href="#">
                           Who
                         </a>
                       </li>
                       <!-- what -->
                       <li class="nav-item ">
-                        <a class="nav-link" href="./what-we-care.php">
+                        <a class="nav-link" href="#">
                           What
                         </a>
                       </li>
                       <!-- how -->
                       <li class="nav-item">
-                        <a class="nav-link" href="./how.php">
+                        <a class="nav-link" href="#">
                           How
                         </a>
                       </li>
                       <!-- campaigns -->
                       <li class="nav-item dropdown">
-                        <a class="nav-link " href="./team.php" >
+                        <a class="nav-link " href="#" >
                           Campaigns
                         </a>
                       </li>

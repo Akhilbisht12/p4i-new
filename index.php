@@ -1,88 +1,93 @@
 <?php include 'templates/header.php'; ?>
- <div class="section-1 row">
-      <div
-        class="
-          container
-          col-12 col-md-4
-          d-flex
-          flex-column
-          justify-content-center
-        "
+<div class="bg-light carousel-main">
+  <div class="row">
+    <div
+      class="
+        col-12 col-lg-6
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+        resp-height
+      "
+    >
+      <h1
+        class="display-1 underline century-bold"
+        style="border-bottom: '10px solid red'"
       >
-        <div class="container section-1-content">
-          <p class="display-2 heading-font">Hope for<br />Everyone</p>
-          <div class="heading-cont"></div>
-          <p class="h6 text-font-bold text-center text-md-start">
-            <span class="pr-1">Consulting</span> |
-            <span class="px-lg-3">Collaborations</span> |
-            <span class="pe-2">Change</span>
-          </p>
-        </div>
-      </div>
-      <div class="d-flex justify-content-end col-12 col-md-7">
-        <div class="carousel-container w-100">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="./assets/images/carousel-1.jpg"
-                  class="d-block h-100 w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./assets/images/carousel-2.jpg"
-                  class="d-block h-100 w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="./assets/images/carousel-3.jpg"
-                  class="d-block h-100 w-100"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button> -->
-          </div>
-        </div>
+        Hope For <br />
+        Everyone
+      </h1>
+      <div class="d-flex">
+        <div class="fs-5 gotham-bold">Consulting</div>
+        <div class="fs-5 gotham-bold px-3 mx-3 border-x">Consulting</div>
+        <div class="fs-5 gotham-bold">Consulting</div>
       </div>
     </div>
+    <div class="col-12 col-lg-6">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/carousel-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/carousel-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/carousel-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
     <!--Section 2-->
     <div
       class="section-2 py-0 py-lg-3 py-md-1"
@@ -672,8 +677,50 @@
       </div>
     </div>
     <div class="vertical-line mb-5" data-aos="fade-down"></div>
+ <!-- team profile row 1 -->
+ <div class="section-8 pt-4 my-5">
+      <div class="container w-md-75">
+        <div class="row w-100 h-100 d-flex">
+          <div class="col-12 col-md-8">
+            <h2 class="heading-font text-center my-5 display-6">Co Leads</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 p-3">
+                <div class="team-box">
+                  <img src="./assets/images/face-1.jpg" alt="" />
+                  <p class="member-name text-font">C K Mishra</p>
+                  <p class="designation text-font">Policy and Administration</p>
+                </div>
+                <div class="square"></div>
+              </div>
+              <div class="col-12 col-md-6 p-3">
+                <div class="team-box">
+                  <img src="./assets/images/face-2.jpg" alt="" />
+                  <p class="member-name text-font">Anjali Nayar</p>
+                  <p class="designation text-font">Public Health and Policy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <h2 class="heading-font text-center my-5 display-6">Mentor</h2>
+
+            <div class="row">
+              <div class="col-12 p-3">
+                <div class="square"></div>
+                <div class="team-box">
+                  <img src="./assets/images/face-3.jpg" alt="" />
+                  <p class="member-name text-font">Linn Dorin</p>
+                  <p class="designation text-font">Finance and Business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- team profile row 2 -->
     <div class="section-8 pt-4 my-5">
-      <h2 class="heading-font text-center my-5 display-6">Our Team</h2>
+      <h2 class="heading-font text-center my-5 display-6">Staff</h2>
       <div class="container w-md-75">
         <div class="row w-100 h-100 d-flex">
           <div class="col-12 col-md-4 p-3">
@@ -702,6 +749,7 @@
         </div>
       </div>
     </div>
+    <!-- team breakdown as per classification -->
     <div class="section-9">
       <div class="container">
         <div class="heading-font display-6 text-center mb-5">
@@ -815,9 +863,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="d-flex justify-content-center">
-      <hr class="my-5 w-75" />
     </div>
 <!-- Footer -->
  <?php include 'templates/footer.php'; ?>
