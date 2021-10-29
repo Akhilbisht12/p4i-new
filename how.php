@@ -10,9 +10,9 @@
         align-items-center
       "
     >
-      <h1 class="century-bold display-6">The Business Model</h1>
+      <h1 class="century-bold display-6 mt-5 pt-3">The Business Model</h1>
       <h2 class="gotham-regular f-1">Spectrum Revisited</h2>
-      <img class="my-5 w-100" src="./assets/images/how/how-hero.png" />
+      <img class="mt-2 mb-5 py-5 w-75" src="./assets/images/how/how-hero.svg" />
     </div>
     <!-- businesss details explained section -->
     <div class="sec-business-detail">
@@ -20,34 +20,18 @@
         <div class="skew-blue p-0 p-md-5">
           <div class="business-content p-4 p-md-5 m-0 m-md-5">
             <p class="gotham-regular text-white text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus iste distinctio nulla quod expedita eum, ducimus
-              corporis suscipit perspiciatis dolore eaque facere quam amet, modi
-              vel ex saepe? Ea, eaque?Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Animi quas illum veniam voluptatibus
-              perspiciatis ducimus, deserunt vero laudantium harum id aperiam a
-              labore ad eveniet? Corrupti ducimus praesentium veniam assumenda.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              id numquam perspiciatis magnam dolorem sed corporis dolorum eos,
-              nihil possimus ex expedita cum nulla assumenda placeat sequi,
-              fugit vitae eveniet!
+            Impact-driven small to medium enterprises often struggle to access available opportunities either due to a lack of awareness or poor visibility, since many do not have resources or skills to invest in communications, public relations, or advertising. Similarly, donors or high net worth individuals could miss out on opportunities to invest in truly innovative models and solutions due to lack of awareness about such enterprises. This is where P4i comes in – we combine innovation and risk-taking to forge alliances and partnerships.
+
             </p>
             <p class="gotham-regular text-white text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus iste distinctio nulla quod expedita eum, ducimus
-                corporis suscipit perspiciatis dolore eaque facere quam amet, modi
-                vel ex saepe? Ea, eaque?Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Animi quas illum veniam voluptatibus
-                perspiciatis ducimus, deserunt vero laudantium harum id aperiam a
-                labore ad eveniet? Corrupti ducimus praesentium veniam assumenda.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-                id numquam perspiciatis magnam dolorem sed corporis dolorum eos,
-                nihil possimus ex expedita cum nulla assumenda placeat sequi,
-                fugit vitae eveniet!
+            We also work as a hybrid think-tank building strategies for sustainable execution and growth of social initiatives, thus enabling social change. Using a comprehensive criterion for assessment, we have developed a database of innovations and potential investments, be it short-term catalytic projects or institution building for medium- to long-term social impact. We become the interface between donors and enterprises to monitor growth, impact, and financial sustainability especially when the grantee and investing organizations are situated in a different geography, are at an early stage of operations, or are working on a solution with a high risk on returns.
               </p>
           </div>
         </div>
       </div>
+    </div>
+    <div class='d-flex justify-content-center align-items-center my-5'>
+      <img class='w-75 my-5 pb-5' src="./assets/images/how/12. POLICY ANALYSIS ARTWORK.svg" alt="" srcset="">
     </div>
  <!--Footer-->
  <?php include 'templates/footer.php'; ?>

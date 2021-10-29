@@ -1,6 +1,14 @@
 @import url("../../fonts/stylesheet.css");
 
+/* header */
+.header-shadow{
+  box-shadow: 2px 10px 35px -12px rgba(0,0,0,0.5);
+}
+.footer-shadow{
+  box-shadow: 2px -9px 35px -12px rgba(0,0,0,0.30);
 
+}
+/* header */
 /* carousel */
 .underline {
   padding: 1rem 0;

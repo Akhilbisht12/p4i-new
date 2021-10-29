@@ -23,7 +23,8 @@
     padding: 1.5rem 1.5rem;
 }
 #navbarSupportedContent ul li a:hover {
-    background-color: lightgray;
+    background-color: transparent;
+    color : #0e8694!important;
 }
 #navbarSupportedContent .dropdown-item {
     font-family: "gotham_bookregular";

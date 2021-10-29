@@ -1,5 +1,5 @@
 <!--Footer-->
-<footer>
+<footer class='footer-shadow'>
   <script src="./footer.js"></script>
   <div class="container py-5">
     <div class="row footer-row g-3">
