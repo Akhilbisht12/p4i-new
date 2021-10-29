@@ -2,7 +2,7 @@
 //get data from form  
 
 $name = $_POST['fullname'];
-$email= $_POST['email'];
+$email=  filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
 $phone= $_POST['phone'];
 $message= $_POST['message'];
 $option = $_POST['formOption'];
@@ -15,7 +15,7 @@ if($email!=NULL){
     session_start();
     mail($to,$subject,$txt,$headers);
     $_SESSION['success_message'] = "Your form saved successfully.";
-    header("Location: index.php");
+    header("Location: thanks.php");
     exit();
 }
 else {
