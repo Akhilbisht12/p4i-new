@@ -1,7 +1,7 @@
 <?php
 //get data from form  
 
-$name = $_POST['name'];
+$name = $_POST['fullname'];
 $email= $_POST['email'];
 $phone= $_POST['phone'];
 $message= $_POST['message'];
@@ -12,9 +12,15 @@ $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Phone =" . $phone ."\
 $headers = "From: admin@upgrate.in" . "\r\n" .
 "CC: [email protected]";
 if($email!=NULL){
+    session_start();
     mail($to,$subject,$txt,$headers);
-    echo("submitted successfully");
+    $_SESSION['success_message'] = "Your form saved successfully.";
+    header("Location: index.php");
+    exit();
 }
-//redirect
-header("Location:index.php");
+else {
+    echo "Server problem, Try after sometime.";
+    header("Location: index.php");
+}
+
 ?>
