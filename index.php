@@ -6,22 +6,23 @@
         col-12 col-lg-6
         d-flex
         flex-column
+        px-lg-5 p-0
         justify-content-center
+        align-items-lg-start
         align-items-center
         resp-height
       "
     >
       <h1
-        class="display-1 underline century-bold"
-        style="border-bottom: '10px solid red'"
+        class="display-1 px-lg-5 p-0  century-bold"
       >
-        Hope For <br />
+        Hope For <br/>
         Everyone
       </h1>
-      <div class="d-flex">
-        <div class="fs-5 gotham-bold">Consulting</div>
-        <div class="fs-5 gotham-bold px-3 mx-3 border-x">Consulting</div>
-        <div class="fs-5 gotham-bold">Consulting</div>
+      <div class="d-flex underline mx-5">
+        <div class="fs-lg-5 fs-6 gotham-bold">Consulting</div>
+        <div class="fs-lg-5 fs-6 gotham-bold px-3 mx-3 border-x">Collaborations</div>
+        <div class="fs-lg-5 fs-6 gotham-bold">Change</div>
       </div>
     </div>
     <div class="col-12 col-lg-6">
@@ -162,7 +163,7 @@
     <div class="vertical-line-1" data-aos="fade-down"></div>
     <div class="section-3 d-flex flex-column justify-content-center">
       <div class="ruler ps-md-5">
-        <h3 class="heading-font ps-lg-5 text-center text-md-start">
+        <h3 class="heading-font ps-lg-5 ps-3 text-center text-md-start">
           What we care about
         </h3>
       </div>
@@ -306,25 +307,36 @@
               </div>
             </div>
             <div class="h3 my-4 tablet d-none d-lg-block">
-              <h3 class="brown-font fs-2 px-2 px-md-0 p-md-5">
+              <h3 class="brown-font fs-2 px-2 px-md-1">
                 We match donors and philanthropists<br />
                 with impact-driven social enterprises.
               </h3>
             </div>
             <hr class="tablet d-none d-md-block" />
-            <p class="text-grey my-2 text-font px-2 px-md-0 tablet d-none d-lg-block">
+            <p class="text-grey my-1 text-font px-2 px-md-0 tablet d-none d-lg-block">
               If you are an organization, donor or philanthropist that wants to
               support enterprises in scaling their social impact innovations and
               initiatives, we will
             </p>
             <!-- accordians -->
-            <div
+            <div class='my-5'>
+              <p class='gotham-bold blue-font my-2'>Connect you with local organizations or enterprises</p>
+              <hr class="accordian-hr">
+              <p class='gotham-bold blue-font my-2'>Assess the value proposition, short-term gain or long-term impact
+</p>
+              <hr class="accordian-hr">
+              <p class='gotham-bold blue-font my-2'>Develop the standards for impact evaluation
+</p>
+              <hr class="accordian-hr">
+              <p class='gotham-bold blue-font my-2'>Support you in determining the quantum and tenure of funding</p>
+            </div>
+            <!-- <div
               class="accordion px-2 px-md-0 my-5"
               id="accordionPanelsStayOpenExample"
             >
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button
+                  <div
                     class="accordion-button text-font blue-font"
                     type="button"
                     data-bs-toggle="collapse"
@@ -447,7 +459,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="col-12 col-lg-5 d-flex justify-content-center">
             <img
@@ -478,7 +490,21 @@
         </div>
         <div class="row h-75 align-items-center">
           <div class="col-12 col-md-7">
-            <div class="accordion my-5" id="accordionPanelsStayOpenExample">
+          <div class='my-5 ps-lg-3'>
+              <p class='gotham-bold blue-font my-2'>Help you access available grant opportunities and connect you with donors
+</p>
+              <hr class="accordian-hr">
+              <p class='gotham-bold blue-font my-2'>Connect you with subject matter experts
+
+</p>
+              <hr class="accordian-hr">
+              <p class='gotham-bold blue-font my-2'>Collaborate with specialists
+
+</p>
+              <hr class="accordian-hr">
+              <p class='gotham-bold blue-font my-2'>Help you build a monitoring and evaluation infrastructure</p>
+            </div>
+            <!-- <div class="accordion my-5" id="accordionPanelsStayOpenExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button
@@ -604,7 +630,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="col-12 col-md-5">
             <img
@@ -725,25 +751,25 @@
         <div class="row w-100 h-100 d-flex">
           <div class="col-12 col-md-4 p-3">
             <div class="team-box">
-              <img src="./assets/images/face-1.jpg" alt="" />
-              <p class="member-name text-font">C K Mishra</p>
-              <p class="designation text-font">Policy and Administration</p>
+              <img src="./assets/images/face-4.jpg" alt="" />
+              <p class="member-name text-font">Shikha Nayyar</p>
+              <p class="designation text-font">Programme Lead</p>
             </div>
             <div class="square"></div>
           </div>
           <div class="col-12 col-md-4 p-3">
             <div class="team-box">
-              <img src="./assets/images/face-2.jpg" alt="" />
-              <p class="member-name text-font">Anjali Nayar</p>
-              <p class="designation text-font">Public Health and Policy</p>
+              <img src="./assets/images/face-5.jpg" alt="" />
+              <p class="member-name text-font">Tarini Warner</p>
+              <p class="designation text-font">Programme Lead</p>
             </div>
           </div>
           <div class="col-12 col-md-4 p-3">
             <div class="square"></div>
             <div class="team-box">
-              <img src="./assets/images/face-3.jpg" alt="" />
-              <p class="member-name text-font">Linn Dorin</p>
-              <p class="designation text-font">Finance and Business</p>
+              <img src="./assets/images/face-6.jpg" alt="" />
+              <p class="member-name text-font">Roshini Burma</p>
+              <p class="designation text-font">Consultant</p>
             </div>
           </div>
         </div>
