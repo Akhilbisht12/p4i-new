@@ -4,7 +4,7 @@
       <div class="container w-md-75">
         <!-- <div class="row w-100 h-100 d-flex">
           <div class="col-12 col-md-8"> -->
-            <h2 class="heading-font text-center mb-4 mt-5 display-6">Co Leads</h2>
+            <h2 class="heading-font text-center mb-4 mt-5 display-6">Co Leads & Mentors</h2>
             <div class="row">
               <div class="col-2"></div>
               <div class="col-12 col-md-4 p-3">

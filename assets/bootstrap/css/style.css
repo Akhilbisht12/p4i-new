@@ -1,8 +1,18 @@
 @import url("../../fonts/stylesheet.css");
-
+a{
+  text-decoration: none;
+  color: #286f71;
+}
 /* header */
 .header-shadow{
   box-shadow: 2px 10px 35px -12px rgba(0,0,0,0.5);
+}
+
+.footer-form input {
+  border: 2px solid gray!important;
+}
+.footer-form textarea {
+  border: 2px solid gray!important;
 }
 .footer-shadow{
   box-shadow: 2px -9px 35px -12px rgba(0,0,0,0.30);
@@ -63,9 +73,15 @@
 }
 /*Mobile Responsive */
 @media (max-width: 576px) {
+  .sec-3-head {
+    text-align: center;
+  }
   .section-1 {
     height: auto;
     background: none;
+  }
+  .mb-hero-heading{
+    text-align: left;
   }
   .section-1-content {
     display: flex;
@@ -144,6 +160,11 @@
   /* padding-left: 100px; */
   border-bottom: 2px solid #286f71;
   width: fit-content;
+}
+@media (max-width : 576px) {
+  .ruler {
+    border: none!important;
+  }
 }
 .section-3 .heading-font {
   margin-top: 40px;

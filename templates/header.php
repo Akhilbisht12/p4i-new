@@ -20,12 +20,12 @@
     <title>P4i-Partnership for Impact</title>
 </head>
 <body>
-    <div class="position-relative header-shadow">
-        <div class="px-5 mx-3 topbar d-flex justify-content-end position-absolute mt-2 end-0">
+    <div class=" header-shadow">
+        <!-- <div class="px-5 mx-3 topbar d-flex justify-content-end position-absolute mt-2 end-0">
             <img class="topbar-social" src="./assets/images/facebook.png" alt="" srcset="">
             <img class="topbar-social" src="./assets/images/linked-in.png" alt="" srcset="">
             <img class="topbar-social" src="./assets/images/insta.png" alt="" srcset="">
-        </div>
+        </div> -->
         <nav class="navbar my-0 navbar-expand-lg navbar-light">
             <div class="px-3 px-md-5 container-fluid">
                 <div class="navbar-brand logo-div">
@@ -36,10 +36,11 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- who -->
+                      <div class="d-lg-flex menu-center w-50 justify-content-between">
+                      <!-- who -->
                       <li class="nav-item ">
                         <a class="nav-link " href="./who-we-are.php">
-                          Who
+                          About Us
                         </a>
                       </li>
                       <!-- what -->
@@ -55,15 +56,23 @@
                         </a>
                       </li>
                       <!-- campaigns -->
-                      <li class="nav-item dropdown">
+                      <li class="nav-item">
                         <a class="nav-link " href="./team.php" >
                           Teams
                         </a>
                       </li>
+                      </div>
+                      <div>
                       <!-- media -->
-                      <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Media</a>
-                      </li> -->
+                      <li class="nav-item d-flex align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                          <a target="_blank" class='social-links' href="https://www.facebook.com/partnerships4impact"><img class="topbar-social" src="./assets/images/facebook.png" alt="" srcset=""></a>
+                          <a target="_blank" class='social-links' href="https://www.instagram.com/partnerships4impact/"><img class="topbar-social" src="./assets/images/linked-in.png" alt="" srcset=""></a>
+                          <a target="_blank" class='social-links' href="https://www.linkedin.com/company/partnerships-for-impact-p4i/"><img class="topbar-social" src="./assets/images/insta.png" alt="" srcset=""></a>
+                        </div>
+                      </li>
+                      </div>
+                      
                     </ul>
                 </div>
             </div>

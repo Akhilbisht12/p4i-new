@@ -9,17 +9,16 @@
         px-lg-5 p-0
         justify-content-center
         align-items-lg-start
-        align-items-center
         resp-height
       "
     >
       <h1
-        class="display-1 px-lg-5 p-0  century-bold"
+        class="display-2 mb-hero-heading px-lg-5 p-3 century-bold"
       >
         Hope For <br/>
         Everyone
       </h1>
-      <div class="d-flex underline mx-5">
+      <div class="d-flex underline ms-3 me-5 mx-lg-5">
         <div class="fs-lg-5 fs-6 gotham-bold">Consulting</div>
         <div class="fs-lg-5 fs-6 gotham-bold px-3 mx-3 border-x">Collaborations</div>
         <div class="fs-lg-5 fs-6 gotham-bold">Change</div>
@@ -132,10 +131,10 @@
                 my-5 my-md-0
               "
             >
-              <button class="mybtn my-md-5 text-font-bold">
+              <a href="./who-we-are.php" class="mybtn my-md-5 text-font-bold">
                 <img class="mybtn-icon" src="./assets/images/plus.svg" />
                 Read More
-              </button>
+</a>
             </div>
           </div>
           <div
@@ -163,7 +162,7 @@
     <div class="vertical-line-1" data-aos="fade-down"></div>
     <div class="section-3 d-flex flex-column justify-content-center">
       <div class="ruler ps-md-5">
-        <h3 class="heading-font ps-lg-5 ps-3 text-center text-md-start">
+        <h3 class="heading-font ps-lg-5 ps-5 ms-5 text-md-start">
           What we care about
         </h3>
       </div>
@@ -199,7 +198,7 @@
               srcset=""
               data-aos="fade-up"
             />
-            <div class="h5 sec3imgs-text">Livelihood</div>
+            <div class="h5 sec3imgs-text">Livelihoods</div>
           </div>
           <div class="d-flex flex-column justify-content-center">
             <img
@@ -211,7 +210,7 @@
             />
             <div class="h5 sec3imgs-text">Education</div>
           </div>
-          <div class="d-flex flex-column justify-content-center">
+          <div class="d-flex my-4 pb-2 flex-column justify-content-center">
             <img
               src="./assets/images/mentalhealth.png"
               class="sec3imgs"
@@ -224,10 +223,10 @@
         </div>
       </div>
       <div class="container d-flex justify-content-center mb-5">
-        <button class="mybtn text-font-bold">
+        <a href='./what-we-care.php' class="mybtn text-font-bold">
           <img src="./assets/images/plus.svg" alt="" class="mybtn-icon" />Read
           More
-        </button>
+</a>
       </div>
     </div>
     <div class="vertical-line py-5 my-5" data-aos="fade-down"></div>
@@ -266,10 +265,10 @@
               geography, are at an early stage of operations, or are working on
               a solution with a high risk on returns.
             </p>
-            <button class="mybtn text-font-bold">
+            <a href='./how.php' class="mybtn text-font-bold">
               <img src="./assets/images/plus.svg" alt="" class="mybtn-icon" />
               Our Business Model
-            </button>
+</a>
           </div>
         </div>
         <!-- <hr class="sec3-divider-rel" id="divid-2" /> -->
@@ -298,7 +297,7 @@
               </div>
               <div class="col-sm-5">
                 <img
-                class="sec5img ps-5 w-sm-100 d-none d-sm-block "
+                class="sec5img ps-5 w-sm-100"
                 data-aos="fade-down"
                 src="./assets/images/sec5img.png"
                 alt=""
@@ -463,7 +462,7 @@
           </div>
           <div class="col-12 col-lg-5 d-flex justify-content-center">
             <img
-              class="sec5img ps-5 w-lg-50 tablet d-none d-lg-block
+              class="sec5img ps-5 w-lg-50 tablet d-none d-lg-block"
               data-aos="fade-down"
               src="./assets/images/sec5img.png"
               alt=""
@@ -640,10 +639,9 @@
               alt=""
               srcset=""
             />
-            <button class="mybtn text-font-bold m-auto">
+            <a href='./what-we-care.php#social-enter' class="mybtn w-50 text-font-bold m-auto">
               <img src="./assets/images/plus.svg" alt="" class="mybtn-icon" />
-              Read More
-            </button>
+              Read More</a>
           </div>
         </div>
       </div>
@@ -694,23 +692,24 @@
               while promoting good policymaking and governance; and, ultimately,
               good policy outcomes and sustainable contributions to societies.
             </p>
-            <button class="mybtn text-font-bold my-4">
+            <a href='./what-we-care.php#policy' class="mybtn text-font-bold my-4">
               <img src="./assets/images/plus.svg" alt="" class="mybtn-icon " />
               Read More
-            </button>
+</a>
           </div>
         </div>
       </div>
     </div>
     <div class="vertical-line mb-5" data-aos="fade-down"></div>
  <!-- team profile row 1 -->
- <div class="section-8 pt-4 my-5">
+ <div class="section-8 pt-2 my-2">
       <div class="container w-md-75">
-        <div class="row w-100 h-100 d-flex">
-          <div class="col-12 col-md-8">
-            <h2 class="heading-font text-center my-5 display-6">Co Leads</h2>
+        <!-- <div class="row w-100 h-100 d-flex">
+          <div class="col-12 col-md-8"> -->
+            <h2 class="heading-font text-center mb-4 mt-5 display-6">Co Leads & Mentors</h2>
             <div class="row">
-              <div class="col-12 col-md-6 p-3">
+              <div class="col-2"></div>
+              <div class="col-12 col-md-4 p-3">
                 <div class="team-box">
                   <img src="./assets/images/face-1.jpg" alt="" />
                   <p class="member-name text-font">C K Mishra</p>
@@ -718,35 +717,42 @@
                 </div>
                 <div class="square"></div>
               </div>
-              <div class="col-12 col-md-6 p-3">
+              <div class="col-12 col-md-4 p-3">
                 <div class="team-box">
                   <img src="./assets/images/face-2.jpg" alt="" />
                   <p class="member-name text-font">Anjali Nayar</p>
                   <p class="designation text-font">Public Health and Policy</p>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-4">
-            <h2 class="heading-font text-center my-5 display-6">Mentor</h2>
+              <div class="col-2"></div>
 
-            <div class="row">
-              <div class="col-12 p-3">
-                <div class="square"></div>
-                <div class="team-box">
-                  <img src="./assets/images/face-3.jpg" alt="" />
-                  <p class="member-name text-font">Linn Dorin</p>
-                  <p class="designation text-font">Finance and Business</p>
-                </div>
-              </div>
-            </div>
-          </div>
+            <!-- </div>
+          </div> -->
         </div>
       </div>
     </div>
     <!-- team profile row 2 -->
-    <div class="section-8 pt-4 my-5">
-      <h2 class="heading-font text-center my-5 display-6">Staff</h2>
+    <div class="section-8 pt-4 my-2 d-flex flex-column justify-content-center">
+      <h2 class="heading-font text-center mt-2 mb-4 display-6">Mentor</h2>
+      <div class="container w-md-75">
+        <div class="row w-100 h-100 d-flex">
+          <div class="col-12 col-md-4"></div>
+          <div class="col-12 col-md-4 p-3">
+            <div class="square"></div>
+            <div class="team-box">
+              <img src="./assets/images/face-3.jpg" alt="" />
+              <p class="member-name text-font">Linn Dorin</p>
+              <p class="designation text-font">Finance and Business</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4"></div>
+
+      </div>
+    </div>
+    <!-- team profile row 3 -->
+    <div class="section-8 pt-4 my-2">
+      <h2 class="heading-font text-center mt-2 mb-4 display-6">Staff</h2>
       <div class="container w-md-75">
         <div class="row w-100 h-100 d-flex">
           <div class="col-12 col-md-4 p-3">
@@ -778,10 +784,10 @@
     <!-- team breakdown as per classification -->
     <div class="section-9">
       <div class="container">
-        <div class="heading-font display-6 text-center mb-5">
+        <div class="heading-font display-6 text-center py-3 py-lg-0 my-lg-5 my-3">
           Panel of Experts
         </div>
-        <div class="row">
+        <div class="row px-4">
           <!-- CARD 1 -->
           <div class="col-12 col-md-4">
             <div class="heading-font fs-5 my-1 color">Science</div>
@@ -836,8 +842,8 @@
                     Amirullah khan
                   </div>
                   <div class="sm-line"></div>
-                  <div class="fs-6 px-4 text-font">
-                    Economist (health, education and agriculture )
+                  <div style="font-size:15px!important;" class="fs-6 px-4 text-font" class="fs-6 px-4 text-font">
+                    Economist(Health, Edu. and Agriculture)
                   </div>
                 </div>
                 <div class="">
@@ -854,7 +860,7 @@
           </div>
         </div>
         <!-- row 2  -->
-        <div class="row my-5">
+        <div class="row my-5 px-4">
           <!-- CARD 1 -->
           <div class="col-12 col-md-4">
             <div class="heading-font fs-5 my-1 color">

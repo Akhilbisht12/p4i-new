@@ -14,18 +14,18 @@
         </div>
         <div class="container">
           <h2 class="heading-font blue-font mb-4">
-            We would Love to hear from you
+            We would Love<br>to hear from you
           </h2>
           <p class="text-font-bold text-footer mb-5">
             Send us some details about your investment<br />
-            goals or your social imapct firm<br />
+            goals or your social impact firm.<br />
             <span class="text-font fw-light">
               Feel free to ask questions about our proecess.<br/> We'll get
-              back to you within the week</span>
+              back to you within the week.</span>
           </p>
           <div id="message"><?php if(isset($success)){ echo $message; } ?></div>
           <div class="contact-form">
-            <form id='mail' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+            <form class="footer-form" id='mail' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
               <input
                 type="text"
                 name="fullname"
@@ -85,7 +85,7 @@
                     checked
                   />
                   <label class="form-check-label" for="socialImpact"
-                    >Social Imapact Firm</label
+                    >Social Impact Firm</label
                   >
                 </div>
                 <div class="form-check form-check-inline">
@@ -118,24 +118,25 @@
                 <div
                   class="social-icons d-flex justify-content-evenly my-2"
                 >
-                  <img
+                <a target="_blank" href="https://www.facebook.com/partnerships4impact"><img
                     class=""
                     src="./assets/images/facebook.png"
                     alt=""
                     srcset=""
-                  />
-                  <img
+                  /></a>
+                  <a target="_blank" href="https://www.instagram.com/partnerships4impact/"><img
                     class=""
                     src="./assets/images/insta.png"
                     alt=""
                     srcset=""
-                  />
-                  <img
+                  /></a>
+                  <a target="_blank" href="https://www.linkedin.com/company/partnerships-for-impact-p4i/"><img
                     class=""
                     src="./assets/images/linked-in.png"
                     alt=""
                     srcset=""
-                  />
+                  /></a>
+                  
                 </div>
               </div>
             </div>
