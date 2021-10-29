@@ -1,5 +1,40 @@
 @import url("../../fonts/stylesheet.css");
 
+
+/* carousel */
+.underline {
+  padding: 1rem 0;
+  border-bottom: 4px solid #ac3b08;
+  border-radius: 2px;
+}
+.border-x {
+  border-width: 0 2px;
+  border-color: #262626;
+  border-style: solid;
+}
+
+@media (max-width : 834px) {
+  .resp-height{
+    height: 35vh;
+  }
+}
+
+@media (min-width : 900px) {
+  .carousel {
+  -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.carousel-main {
+  height: 85vh;
+  background-image: url('../../images/bg-hero.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+}
+
+/* carousel end */
+
 .logo-container {
   display: flex;
   align-items: flex-end;
@@ -28,8 +63,8 @@
     align-items: center;
   }
 
-  .carousel-container {
-    /* background-image: url("../../images/bg.png"); */
+  /* .carousel-container {
+    background-image: url("../../images/bg.png");
     background-size: cover;
     display: flex;
     background-position-x: -6.45rem !important;
@@ -37,7 +72,7 @@
   }
   .carousel-container .carousel {
     width: 90%;
-  }
+  } */
   .heading-cont {
     width: 55% !important;
   }
@@ -102,9 +137,9 @@
   color: #262626;
   padding-bottom: 20px;
 }
-.carousel {
+/* .carousel {
   -webkit-clip-path: polygon(27% 0%, 100% 0%, 100% 100%, 11% 100%);
-}
+} */
 
 .section-2 {
   height: auto;
@@ -431,7 +466,7 @@ footer button {
     display: none;
   }
   .section-2 {
-    margin-top: 9rem;
+    /* margin-top: 9rem; */
   }
   .vertical-line {
     height: 100px;

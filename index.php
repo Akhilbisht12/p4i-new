@@ -85,7 +85,7 @@
     </div>
     <!--Section 2-->
     <div
-      class="section-2 py-lg-3 py-md-1"
+      class="section-2 py-0 py-lg-3 py-md-1"
       data-wow-duration="10s"
       data-wow-delay="10s"
     >
@@ -300,14 +300,14 @@
               />
               </div>
             </div>
-            <div class="h3 my-4 tablet">
+            <div class="h3 my-4 tablet d-none d-lg-block">
               <h3 class="brown-font fs-2 px-2 px-md-0 p-md-5">
                 We match donors and philanthropists<br />
                 with impact-driven social enterprises.
               </h3>
             </div>
-            <hr class="tablet" />
-            <p class="text-grey my-2 text-font px-2 px-md-0 tablet">
+            <hr class="tablet d-none d-md-block" />
+            <p class="text-grey my-2 text-font px-2 px-md-0 tablet d-none d-lg-block">
               If you are an organization, donor or philanthropist that wants to
               support enterprises in scaling their social impact innovations and
               initiatives, we will
@@ -446,7 +446,7 @@
           </div>
           <div class="col-12 col-lg-5 d-flex justify-content-center">
             <img
-              class="sec5img ps-5 w-lg-50 tablet
+              class="sec5img ps-5 w-lg-50 tablet d-none d-lg-block
               data-aos="fade-down"
               src="./assets/images/sec5img.png"
               alt=""
